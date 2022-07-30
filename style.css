@@ -27,15 +27,16 @@ h1 {
   width: 200px;
   border-radius: 300px;
   background: rgba(255, 0, 0, 0.571);
+  filter: hue-rotate(0deg);
   transform: translateX(-500px);
   opacity: 0;
   animation: anim 1.5s 0.2s ease-in-out forwards;
 }
 
 h1::first-letter {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 200;
-  font-family: "Dancing Script", cursive;
+  color: red;
 }
 
 @keyframes anim {
